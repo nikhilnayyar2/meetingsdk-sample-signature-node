@@ -100,6 +100,7 @@ app.get("/create-meeting/:email", async (req, res) => {
           type: 1,
           settings: {
             host_video: "false",
+            waiting_room: "true"
           },
         }),
         headers: {
